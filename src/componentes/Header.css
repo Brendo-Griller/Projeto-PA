@@ -1,0 +1,19 @@
+.titulo {
+    background-color: #1a1a1a;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .titulo h1 {
+    color: white;
+    margin: 0 0 10px 0;
+    font-size: 2.2rem;
+  }
+  
+  .titulo h2 {
+    color: #cccccc;
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: normal;
+  }

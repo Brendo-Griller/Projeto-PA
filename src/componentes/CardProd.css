@@ -1,0 +1,92 @@
+.card-prod {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-prod h3 {
+  margin: 0 0 5px 0;
+  font-family: sans-serif;
+  color: #1a1a1a;
+  font-size: 1.15rem;
+}
+
+.card-prod p {
+  margin: 0;
+  color: #666;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+/* Garante que o espaço da imagem seja fixo e uniforme em todos os cards */
+.container-img-prod {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+/* Estilo para a imagem realista redimensionar perfeitamente */
+.img-produto {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Impede que a imagem fique esticada ou cortada */
+  border-radius: 8px;
+}
+
+.contador-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.btn-circulo {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.btn-light {
+  background: #fff;
+  color: #333;
+}
+
+.btn-light:hover {
+  background: #f3f3f3;
+  border-color: #bbb;
+}
+
+.btn-dark {
+  background: #1a1a1a;
+  color: #fff;
+  border-color: #1a1a1a;
+}
+
+.btn-dark:hover {
+  background: #333;
+}
+
+.quantidade {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  min-width: 20px;
+}

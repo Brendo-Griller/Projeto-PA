@@ -1,0 +1,18 @@
+.calculadora-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.calculadora-titulo {
+  margin: 0 0 5px 0;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.calculadora-valor {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1a1a1a;
+}

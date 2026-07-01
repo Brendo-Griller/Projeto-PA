@@ -1,0 +1,1 @@
+const precosString = ["R$ 10.00", "R$ 25.50", "R$ 75.90"];
